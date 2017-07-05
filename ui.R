@@ -10,7 +10,7 @@ library(shiny)
 library(stringr)
 shinyUI(fluidPage(
 
-  titlePanel("Proline 6 correction by JLongworth (j.longworth@sheffield.ac.uk)"),
+  titlePanel("Shiny-Pro6Correction"),
   sidebarLayout(
     sidebarPanel(
 #      textInput("Name", "Name:", "Submitter name"),
