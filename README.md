@@ -13,6 +13,7 @@ library(shiny)
 
 # 3. Run the application from GitHub.
 runGitHub("Shiny-Pro6Correction", "JosephLongworth")
+```R
 
-# Alternatively the Server.R and Ui.R can be downloaded and run locally or uploaded to a server as described at http://shiny.rstudio.com/.
+Alternatively the Server.R and Ui.R can be downloaded and run locally or uploaded to a server as described at http://shiny.rstudio.com/.
 
