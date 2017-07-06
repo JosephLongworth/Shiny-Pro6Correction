@@ -1,5 +1,5 @@
 # Shiny-Pro6Correction
-Shiny script creating a web application for the correction of Maxquant data for proline 6 contamination.
+Shiny script creating a web application for the correction of SILAC ratios generated from Maxquant for proline 6 incorporation.
 
 
 The easiest way to run the web application is through R as shown below. Alternatively the Server.R and Ui.R can be downloaded and run locally or uploaded to a server as described at http://shiny.rstudio.com/.
