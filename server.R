@@ -109,7 +109,7 @@ par(mfrow=c(2,2))
                       sub=paste0("Correction factor = ",round(correction_factor,3)))
 
 # -----  Split evidence by protein group to determin the corrected protein ratios
-progress$set(message = "5/6 Complie Protein ratios", value = 80)   
+progress$set(message = "5/6 Compile Protein ratios", value = 80)   
 IDs=corrected_evidence$Protein.group.IDs
 IDs=IDs[!duplicated(IDs)]
 Corrected_ProtienGroups_ratios=matrix(nrow = length(IDs),ncol = 3)
