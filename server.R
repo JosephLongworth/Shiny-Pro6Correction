@@ -87,25 +87,25 @@ par(mfrow=c(2,2))
   boxplot_pre=boxplot(log10(df1$Ratio.H.L),log10(df2$Ratio.H.L),log10(df3$Ratio.H.L), 
                       log10(df4$Ratio.H.L),log10(df5$Ratio.H.L),log10(df6$Ratio.H.L),
                       log10(df7$Ratio.H.L),outline=T,main="Uncorrected with outliers",
-                      names = c("0","1","2","3","4","5","6"),xlab="Proline count",ylab="H/L ratio")
+                      names = c("0","1","2","3","4","5","6"),xlab="Proline Count",ylab="H/L Ratio (log 10)")
   
   boxplot_pre=boxplot(log10(df1$Ratio.H.L),log10(df2$Ratio.H.L),log10(df3$Ratio.H.L),
                       log10(df4$Ratio.H.L),log10(df5$Ratio.H.L),log10(df6$Ratio.H.L),
                       log10(df7$Ratio.H.L),outline=F,main="Uncorrected without outliers",
-                      names = c("0","1","2","3","4","5","6"),xlab="Proline count",ylab="H/L ratio")
+                      names = c("0","1","2","3","4","5","6"),xlab="Proline Count",ylab="H/L Ratio (log 10)")
   
   boxplot_pre=boxplot(log10(df_corrected1$Ratio.H.L),log10(df_corrected2$Ratio.H.L),
                       log10(df_corrected3$Ratio.H.L),log10(df_corrected4$Ratio.H.L),
                       log10(df_corrected5$Ratio.H.L),log10(df_corrected6$Ratio.H.L),
                       log10(df_corrected7$Ratio.H.L),outline=T,main="Corrected with outliers",
-                      names = c("0","1","2","3","4","5","6"),xlab="Proline count",ylab="H/L ratio",
+                      names = c("0","1","2","3","4","5","6"),xlab="Proline Count",ylab="H/L Ratio (log 10)",
                       sub=paste0("Correction factor = ",round(correction_factor,3)))
   
   boxplot_pre=boxplot(log10(df_corrected1$Ratio.H.L),log10(df_corrected2$Ratio.H.L),
                       log10(df_corrected3$Ratio.H.L),log10(df_corrected4$Ratio.H.L),
                       log10(df_corrected5$Ratio.H.L),log10(df_corrected6$Ratio.H.L),
                       log10(df_corrected7$Ratio.H.L),outline=F,main="Corrected without outliers",
-                      names = c("0","1","2","3","4","5","6"),xlab="Proline count",ylab="H/L ratio",
+                      names = c("0","1","2","3","4","5","6"),xlab="Proline Count",ylab="H/L Ratio (log 10)",
                       sub=paste0("Correction factor = ",round(correction_factor,3)))
 
 # -----  Split evidence by protein group to determin the corrected protein ratios
